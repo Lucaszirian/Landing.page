@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos Recomendados</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        .product {
+            margin: 20px auto;
+            padding: 15px;
+            border: 1px solid #ddd;
+            background: #fff;
+            width: 80%;
+            border-radius: 8px;
+        }
+        .product h2 {
+            color: #333;
+        }
+        .product a {
+            text-decoration: none;
+            color: white;
+            background: #007bfc;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .product a:hover {
+            background: #005bb5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Produtos Recomendados</h1>
+        <div class="product">
+            <h2>Produto 1</h2>
+            <p>Descrição breve do produto.</p>
+            <a href="https://go.hotmart.com/S99750344L" target="_blank">Compre Agora</a>
+        </div>
+        <div class="product">
+            <h2>Produto 2</h2>
+            <p>Descrição breve do produto.</p>
+            <a href="https://go.hotmart.com/S99750344L?dp=1" target="_blank">Compre Agora</a>
+        </div>
+    </div>
+</body>
+</html>
